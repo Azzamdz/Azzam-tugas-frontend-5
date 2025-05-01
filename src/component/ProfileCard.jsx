@@ -2,7 +2,7 @@ export default function ProfileCard({ name, address, phone, pfp, bestie }) {
   return (
     <div
       className={`flex flex-col border border-[#efefef] p-8 rounded-lg max-w-md shadow-md mb-10  ${
-        bestie ? "bg-green-200" : "bg-white"
+        bestie ? "bg-green-50" : "bg-white"
       }`}
     >
       <div className="flex items-center gap-4 pb-3 mb-6">
@@ -14,7 +14,7 @@ export default function ProfileCard({ name, address, phone, pfp, bestie }) {
         <p className="text-xl font-medium">{name}</p>
 
         {bestie && (
-          <span className="text-xs font-medium text-white bg-green-400 px-4 py-2 rounded-md">
+          <span className="text-xs font-medium text-white bg-green-400 px-4 py-2 rounded-[50px]">
             BEST FRIEND
           </span>
         )}
