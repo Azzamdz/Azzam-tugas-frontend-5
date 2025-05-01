@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -105,4 +107,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+ 
+.kumpulan-kontak {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
