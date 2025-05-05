@@ -14,7 +14,7 @@ export default function ProfileCard({ name, address, phone, pfp, bestie }) {
         <p className="text-xl font-medium">{name}</p>
 
         {bestie && (
-          <span className="text-xs font-medium text-white bg-green-400 px-4 py-2 rounded-[50px]">
+          <span className="text-xs font-medium text-black bg-green-400 px-4 py-2 rounded-[50px]">
             BEST FRIEND
           </span>
         )}
