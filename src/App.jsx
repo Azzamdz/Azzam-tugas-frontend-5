@@ -5,8 +5,9 @@ export default function App() {
   console.log(profiles);
   return (
     <main>
-      <h1>
-        <span>My Personal</span> <br /> Contact Book
+      <h1 className="text-2xl">
+        <span>My Personal</span> <br />{" "}
+        <span className="font-semibold">Contact Book</span>
       </h1>
 
       <div className="kumpulan-kontak">
